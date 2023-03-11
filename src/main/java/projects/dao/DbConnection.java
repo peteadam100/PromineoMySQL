@@ -7,11 +7,13 @@ import java.sql.SQLException;
 import projects.exception.DbException;
 
 public class DbConnection {
-	private static final String HOST = "localhost";
-	private static final int PORT = 3306;
-	private static final String SCHEMA = "recipes";
-	private static final String USER = "recipes";
-	private static final String PASSWORD = "recipes";
+//	private static final String HOST = "localhost";
+//	private static final int PORT = 3306;
+	private static final String HOST = "10.4.50.100";
+	private static final int PORT = 49154;
+	private static final String SCHEMA = "projects";
+	private static final String USER = "projects_user";
+	private static final String PASSWORD = "projects";
 	
 
 	public static Connection getConnection() {
