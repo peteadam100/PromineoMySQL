@@ -104,7 +104,7 @@ public class ProjectsApp {
 		try {
 			return Integer.valueOf(input);
 		} catch (NumberFormatException e) {
-			throw new DbException(input + " is not a vlaid number. Try again.");
+			throw new DbException(input + " is not a valid number.");
 		}
 	}
 
